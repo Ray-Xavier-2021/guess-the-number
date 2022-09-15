@@ -4,13 +4,13 @@
 - Skills / Programming languages used
 - Reason for project
 
-This project was built by me using JavaScript. It will be added to my portfolio showcase as one of my projects. Built for practice in JavaScript ...
+This project was built by me using JavaScript. It will be added to my portfolio showcase as one of my projects. Built for practice in JavaScript.
 
 
 [Live Netlify Deployment](https://horatio-404-not-found-error-page.netlify.app/)
 
 
-![Screenshot placeholder] (twitter_clone_app.png)
+![Screenshot placeholder] ()
 
 
 ## Technologies Used
