@@ -7,10 +7,11 @@
  * DONE: Complete the showYouWon, showNumberAbove, showNumberBelow
  * DONE: Use the showYouWon... functions within displayResult to display the correct dialog
  * DONE: Save the guess history in a variable called guess
- * TODO: Display the guess history using displayHistory() function
- * TODO: Use the initGame() function to restart the game
+ * DONE: Display the guess history using displayHistory() function
+ * DONE: Use the initGame() function to restart the game
  */
 
+  // Variable to store the list of guesses
   let guesses = []; 
   // Variable for store the correct random number 
   let correctNumber = getRandomNumber()
@@ -30,10 +31,9 @@ function playGame(){
   // *CODE GOES BELOW HERE *
   // Variable to store the list of guesses 
     let numberGuess = document.getElementById('number-guess').value
-    console.log(correctNumber)
     displayResult(numberGuess)
-    saveGuessHistory(numberGuess)
     displayHistory()
+    saveGuessHistory(numberGuess)
 }
 
 /**
@@ -57,13 +57,21 @@ function displayResult(numberGuess) {
  */
 function initGame(){
   // *CODE GOES BELOW HERE *
+  // reset correct number
+  // reset results display
+  // reset guesses
+  // reset guess history
+  correctNumber = getRandomNumber()
+  resetResultContent()
+  guesses = []
+  displayHistory()
 }
 
 /**
  * Reset the HTML content for guess history
  */
 function resetResultContent(){
-  document.getElementById("result").innerHTML = "";
+  document.getElementById("result").innerHTML = " ";
 }
 
 /**
@@ -100,7 +108,7 @@ function displayHistory() {
   let list = "<ul class='list-group'>";
   // *CODE GOES BELOW HERE *
   while (index >= 0) {
-    list += "<li class='list-group-item'>" + "You guessed" + guesses[index] + "</li>"
+    list += "<li class='list-group-item'>" + "You guessed " + guesses[index] + "</li>"
     index -= 1
   }
   list += '</ul>'
