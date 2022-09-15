@@ -6,23 +6,12 @@
 
 This project was built by me using JavaScript. It will be added to my portfolio showcase as one of my projects. Built for practice in JavaScript ...
 
-3. Link Heroku app to README.MD
-- `[Live Heroku Deployment](heroku.url.link)`
 
-[Live Heroku Deployment](https://twitter-clone-horatio.herokuapp.com/)
+[Live Netlify Deployment](https://horatio-404-not-found-error-page.netlify.app/)
 
-
-4. Add a Screenshot of Project
-- `![Screenshot placeholder] (paste screenshot file in parenthesis)`
 
 ![Screenshot placeholder] (twitter_clone_app.png)
 
-
-5. Create a Heading-2
-- `## Technologies Used`
-- `* Skill`
-- `* Skill`
-- `* Skill`
 
 ## Technologies Used
 * HTML
@@ -30,20 +19,12 @@ This project was built by me using JavaScript. It will be added to my portfolio 
 * JS
 
 
-6. Create another Heading-2
-- `## Installation`
-- Installation requirements / description
-
 ## Installation
 No need to install any software, just open up index.html and run it
 
 
-7. Create another Heading-2
-- `## How to Use`
-- Description on How to use project
-
 ## How To Use ?
-No login required. Enter name, text and picture of choice then click button.
+No login required. Enter a number between 1 - 100 and click the Check Me button.
 
 
 8. Add commit message
