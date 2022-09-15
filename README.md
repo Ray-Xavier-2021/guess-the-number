@@ -10,7 +10,7 @@ This project was built by me using JavaScript. It will be added to my portfolio 
 [Live Netlify Deployment](https://horatio-404-not-found-error-page.netlify.app/)
 
 
-![Screenshot placeholder] ()
+![guess-number](https://user-images.githubusercontent.com/78431899/190428489-9ddc7d26-586d-403f-8ae6-11d43f8d875e.png)
 
 
 ## Technologies Used
