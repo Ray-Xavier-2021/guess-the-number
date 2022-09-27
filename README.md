@@ -2,7 +2,7 @@
 
 This project was built by me using JavaScript. It will be added to my portfolio showcase as one of my projects. Built for practice in JavaScript.
 
-[Live Netlify Deployment](https://guess-the-random-number.netlify.app/)
+[Live Netlify Deployment](https://horatio-guess-the-number.netlify.app)
 
 ![guess-number](https://user-images.githubusercontent.com/78431899/190428489-9ddc7d26-586d-403f-8ae6-11d43f8d875e.png)
 
